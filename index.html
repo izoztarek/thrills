@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thrillz Digital Menu Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="menu-container">
+        <nav class="sidebar">
+            <div class="brand">
+                <span class="brand-text">THRILLZ</span>
+            </div>
+            <ul class="nav-links">
+                <li class="nav-item active" data-target="step-1">
+                    <span class="nav-num">01</span>
+                    <span class="nav-label">Base & Mold</span>
+                </li>
+                <li class="nav-item" data-target="step-2">
+                    <span class="nav-num">02</span>
+                    <span class="nav-label">Flavors & Core</span>
+                </li>
+                <li class="nav-item" data-target="step-3">
+                    <span class="nav-num">03</span>
+                    <span class="nav-label">Premium Shells</span>
+                </li>
+                <li class="nav-item" data-target="step-4">
+                    <span class="nav-num">04</span>
+                    <span class="nav-label">Top Fillings</span>
+                </li>
+            </ul>
+        </nav>
+
+        <main class="main-content">
+            <section id="step-1" class="menu-section active">
+                <div class="section-header">
+                    <h2>01. Choose Your Base Mold</h2>
+                    <p>Select the foundation shape for your premium Thrillz custom stick.</p>
+                </div>
+                <div class="options-grid">
+                    <div class="option-card" data-value="classic-stick">
+                        <div class="card-ui-visual"></div>
+                        <h3>Classic Slab</h3>
+                        <p>The timeless, clean-cut rectangle mold optimized for even flavor layers.</p>
+                    </div>
+                    <div class="option-card" data-value="swirl-wave">
+                        <div class="card-ui-visual"></div>
+                        <h3>Contour Wave</h3>
+                        <p>Dynamic geometric ridges designed to perfectly trap and hold external drizzled sauces.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="step-2" class="menu-section">
+                <div class="section-header">
+                    <h2>02. Core Ice Cream Flavors</h2>
+                    <p>Select your rich, ultra-premium dense gelato base flavor profile.</p>
+                </div>
+                <div class="options-grid">
+                    <div class="option-card" data-value="madagascar-vanilla">
+                        <h3>Madagascar Bourbon Vanilla</h3>
+                        <p>Rich, creamy dairy base speckled with real aromatic organic vanilla bean caviar.</p>
+                    </div>
+                    <div class="option-card" data-value="belgian-dark">
+                        <h3>70% Belgian Dark Chocolate</h3>
+                        <p>Deep, intensely decadent cocoa experience crafted with authentic single-origin blocks.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="step-3" class="menu-section">
+                <div class="section-header">
+                    <h2>03. Premium Outer Shell</h2>
+                    <p>Choose the snap-crack crisp outer couverture layer to lock in the flavor.</p>
+                </div>
+                <div class="options-grid">
+                    <div class="option-card" data-value="ruby-chocolate">
+                        <h3>Ruby Couverture</h3>
+                        <p>Naturally pink, crisp chocolate shell offering a unique fruity and tart undertone.</p>
+                    </div>
+                    <div class="option-card" data-value="pistachio-crust">
+                        <h3>Pistachio Velvet Wrap</h3>
+                        <p>Silky white chocolate premium blend infused with finely ground Sicilian pistachios.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="step-4" class="menu-section">
+                <div class="section-header">
+                    <h2>04. Internal Top Fillings</h2>
+                    <p>Our signature architectural injection positioned precisely at the top of the stick.</p>
+                </div>
+                <div class="options-grid">
+                    <div class="option-card" data-value="salted-caramel">
+                        <h3>Gourmet Salted Caramel</h3>
+                        <p>Slow-cooked artisanal fluid caramel core concentrated heavily near the top injection point.</p>
+                    </div>
+                    <div class="option-card" data-value="raspberry-coulis">
+                        <h3>Wild Raspberry Coulis</h3>
+                        <p>A bright, vibrant premium tart berry filling injected perfectly above the stick baseline.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
